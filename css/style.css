@@ -299,6 +299,135 @@ main {
   background: #5a5a5a;
 }
 
+/* ── Project detail pages ── */
+.back-link {
+  display: inline-block;
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #8b8272;
+  text-decoration: none;
+  margin-bottom: 48px;
+  align-self: flex-start;
+  transition: color 0.2s;
+}
+
+.back-link:hover {
+  color: #1d1d3a;
+}
+
+.project-title {
+  font-size: clamp(1.8rem, 5vw, 3rem);
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.project-detail-list {
+  list-style: none;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+.project-detail-list li {
+  font-size: 0.9rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 14px 0;
+  border-bottom: 1px solid #e8e8e8;
+  color: #1d1d3a;
+}
+
+.project-detail-list li:first-child {
+  border-top: 1px solid #e8e8e8;
+}
+
+.project-event-list {
+  list-style: none;
+  width: 100%;
+  max-width: 560px;
+}
+
+.project-event-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 16px 0;
+  border-bottom: 1px solid #e8e8e8;
+  gap: 24px;
+}
+
+.project-event-list li:first-child {
+  border-top: 1px solid #e8e8e8;
+}
+
+.event-name {
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #1d1d3a;
+}
+
+.event-date {
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  color: #888;
+  white-space: nowrap;
+}
+
+.project-blocks {
+  width: 100%;
+  max-width: 680px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.project-block {
+  text-align: center;
+}
+
+.block-title {
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  color: #1d1d3a;
+}
+
+.block-title-ko {
+  font-size: 0.9rem;
+  letter-spacing: 0.05em;
+}
+
+.block-subtitle {
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  color: #888;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.block-desc {
+  font-size: 0.95rem;
+  line-height: 1.85;
+  color: #444;
+  margin-top: 8px;
+}
+
+.block-desc a {
+  color: #8b8272;
+  text-decoration: none;
+}
+
+.block-desc a:hover {
+  text-decoration: underline;
+}
+
 /* ── Footer ── */
 footer {
   text-align: center;
